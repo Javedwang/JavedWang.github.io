@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About me
 description: 开源是一种美德
 keywords: Javed
 comments: true
@@ -11,8 +11,8 @@ permalink: /about/
 每天进步一点点，幸福生活每一天
 
 
-[GitHub:http://github.com/javedwang](http://github.com/javedwang)
+- GitHub:[http://github.com/javedwang](http://github.com/javedwang)
 
-[Email:i@javed.cn](mailto:i@javed.cn)
+- Email:[i@javed.cn](mailto:i@javed.cn)
 
-[WeiBo:http://weibo.com/javedwang](http://weibo.com/javedwang)
+- WeiBo:[http://weibo.com/javedwang](http://weibo.com/javedwang)

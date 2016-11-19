@@ -1,4 +1,4 @@
-<h3>Popular Repositories</h3>
+<!-- <h3>Popular Repositories</h3>
 {% if site.github.public_repositories != null %}
 {% assign repos = site.github.public_repositories | sort: "stargazers_count" | reverse%}
 {% for repo in repos | limit: site.side_bar_repo_limit %}
@@ -31,4 +31,25 @@
     </div>
 </a>
 {% endfor %}
-{% endif %}
+{% endif %} -->
+
+
+
+<div class="boxed-group flush" role="navigation">
+    <h3>Popular Repositories</h3>
+    <ul class="boxed-group-inner mini-repo-list">
+      {% if site.github.public_repositories != null %}
+      {% assign repos = site.github.public_repositories | sort: "stargazers_count" | reverse%}
+      {% for repo in repos | limit: site.side_bar_repo_limit %}
+        <li class="public source ">
+            <a href="{{ repo.html_url }}" target="_blank" title="caouecs/Laravel-lang" class="mini-repo-list-item css-truncate">
+                <span class="repo-icon octicon octicon-repo"></span>
+                <span class="repo-and-owner css-truncate-target">
+                    {{ repo.name }}
+                </span>
+            </a>
+        </li>
+        {% endfor %}
+        {% endif %}
+    </ul>
+</div>
