@@ -12,3 +12,5 @@ categories: others
 - npm:[http://npm.taobao.org/](http://npm.taobao.org/)
 
 - Ubuntu:在原生镜像源地址前加上”cn.“即可
+
+- RubyGems:[http://gems.ruby-china.org/](http://gems.ruby-china.org/)

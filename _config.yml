@@ -71,6 +71,7 @@ permalink: /:year/:month/:day/:title/
 gems:
     - rouge
 #     - jekyll-html-pipeline
+    - jekyll-github-metadata
     - jekyll-paginate
     - jekyll-sitemap
     - jekyll-feed

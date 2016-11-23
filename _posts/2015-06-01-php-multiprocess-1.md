@@ -15,7 +15,7 @@ categories: php
 
 下面直接上Example
 
-```
+```php
 <?php
 $pid = pcntl_fork();
 //父进程和子进程都会执行下面代码
