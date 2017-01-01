@@ -16,10 +16,15 @@ permalink: /bookmark/
 - [Docker入门实战](http://yuedu.baidu.com/ebook/d817967416fc700abb68fca1) - 帮助国内爱好者学习使用Docker
 
 ## Linux
-- [supervisor](www.supervisord.org) - Linux下进程管理利器一枚
+- [supervisor](http://www.supervisord.org) - Linux下进程管理利器一枚
 
 ## 前端
 - [Frozenui](https://frozenui.github.io/) - 基于腾讯手Q样式规范的CSS样式库
 - [weui](https://github.com/weui) - WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一。
+
+## 跨平台Native App开发
+- [NWJS](http://nwjs.io/) - NW.js supports running Chrome Apps directly
+
+- [electron](http://electron.atom.io/) The Same As NWJS
 
 
